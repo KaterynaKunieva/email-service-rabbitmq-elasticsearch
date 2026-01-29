@@ -33,7 +33,7 @@ docker-compose ps
 #### View service logs
 
 ```bash
-docker-compose logs -f email-service
+docker-compose logs -f email-service-rabbitmq-elasticsearch
 ```
 
 ### Running Tests

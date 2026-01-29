@@ -41,9 +41,9 @@ services:
       elasticsearch:
         condition: service_healthy
 
-  email-service:
+  email-service-rabbitmq-elasticsearch:
     build: .
-    container_name: email-service
+    container_name: email-service-rabbitmq-elasticsearch
     restart: on-failure
     depends_on:
       elasticsearch:
