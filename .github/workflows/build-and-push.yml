@@ -1,7 +1,7 @@
 name: Build and Push Email Service
 on:
   push:
-    branches: [ master ]
+    branches: [main, master]
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: email-service-rabbitmq-elasticsearch
